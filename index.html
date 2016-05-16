@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Is Bacon Better?</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <!-- <img class="baconbackground" src="baconbackground.jpg"> -->
+  <div class="everything  container-fluid">
+    <div class="row putTopMarginOnMe">
+      <div class="col col-xs-1 col-s-2 col-m-3">
+      </div>
+      <div class="mainContent panel col col-xs-10 col-s-8 col-m-6">
+        <h1 class="title">Is Bacon Better?</h1>
+        <label for="anything">Is Bacon Better Than: 
+          <input id= "anything" class="form-control" type="text" name="anything" placeholder="">
+        </label>
+        <button id="submitButton" class="btn btn-default btn-lg btn-block">Submit</button>
+        <h1 id="answer" class="answer">Yes.</h1>
+        <!-- injecting a sentence in this p tag.  -->
+        <p id="sentence">hidden p tag</p>
+        <button id="refreshButton" class="refreshButton btn btn-lg btn-default btn-block">Try Something Else</button>
+      </div>
+      <div class = "col col-xs-1 col-s-2 col-m-3">
+      </div>
+    </div>
+  </div>
+
+
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src = "main.js"></script>
+</body>
+</html>
