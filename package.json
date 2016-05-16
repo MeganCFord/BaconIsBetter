@@ -1,0 +1,22 @@
+{
+  "name": "baconisbetter",
+  "version": "1.0.0",
+  "description": "small site made as favor to friend",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeganCFord/BaconIsBetter.git"
+  },
+  "author": "Megan C Ford",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MeganCFord/BaconIsBetter/issues"
+  },
+  "homepage": "https://github.com/MeganCFord/BaconIsBetter#readme",
+  "dependencies": {
+    "jquery": "^2.2.3"
+  }
+}
