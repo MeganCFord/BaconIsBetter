@@ -1,4 +1,4 @@
-
+$("#anything").focus();
 
 
 $("#submitButton").click(function(){
@@ -14,7 +14,7 @@ $("#submitButton").click(function(){
     $(".title").text("Bacon Bacon Bacon?")
     $("#submitButton").text("Bacon");
     $("#refreshButton").text("Bacon Bacon Bacon ^")
-    $("label").html(`Bacon Bacon Bacon Bacon: <input id= 'anything' class='form-control' type='text' name='anything' value="${worseThing}">`);
+    $("#question").text("Bacon Bacon Bacon Bacon:");
 
   } else {
     
@@ -50,7 +50,7 @@ $("#refreshButton").on("click", function(){
   $("#submitButton").text("Submit");
   $("#refreshButton").text("try Something Else")
   $("#answer").text("Yes.");
-  $("label").html(`Is Bacon Better Than: <input id='anything' class='form-control' type='text' name='anything'>`)
+  $("#question").text("Is Bacon Better Than:")
 
   $("#refreshButton").slideUp();
   $("#sentence").slideUp();
