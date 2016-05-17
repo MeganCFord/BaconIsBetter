@@ -15,6 +15,7 @@ $("#submitButton").click(function(){
       $("#refreshButton").slideDown();
     });
   });
+  $("#submitButton").attr("disabled", "disabled")
 });
 
 
@@ -34,4 +35,5 @@ $("#refreshButton").on("click", function(){
   $("#answer").slideUp();
   $("#anything").val("");
   $("#anything").focus();
+  $("#submitButton").prop("disabled", false)
 })
