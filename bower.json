@@ -1,0 +1,21 @@
+{
+  "name": "baconisbetter",
+  "description": "small site made as favor to friend",
+  "main": "index.html",
+  "authors": [
+    "Megan C Ford"
+  ],
+  "license": "mit",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.0"
+  }
+}

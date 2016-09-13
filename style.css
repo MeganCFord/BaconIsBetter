@@ -1,0 +1,60 @@
+body {
+  background: url("./baconbackground.jpg") no-repeat center center fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.putTopMarginOnMe {
+  margin-top: 18px;
+}
+.mainContent {
+  height: 500px;
+  background: rgba(255, 255, 255, .6);
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px #47100d;
+}
+
+.title {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #7a1712;
+
+  color: #47100d;
+}
+
+label {
+  padding-top: 10px;
+  color: #47100d;
+}
+
+#anything {
+  color: #47100d;
+}
+
+.answer {
+  display: none;
+  color: #7a1712;
+
+}
+
+.mainContent {
+  text-align: center;
+}
+
+
+#refreshButton {
+  display: none;
+  max-width: 300px;
+  color: #47100d;
+}
+
+#submitButton {
+  margin: 0 auto;
+  max-width: 300px;
+  color: #47100d;
+}
+
+#sentence {
+  display: none;
+  color: #47100d;
+}
