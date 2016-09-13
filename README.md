@@ -2,7 +2,7 @@
 
 Small site (3 hour timeline) built as a favor to a friend who likes bacon. Is anything better than bacon?
 
-Deployed at []()
+Deployed at [http://megancford.github.io/BaconIsBetter/](http://megancford.github.io/BaconIsBetter/)
 
 ---------
 ## Install 
